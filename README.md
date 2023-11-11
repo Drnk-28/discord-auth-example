@@ -54,8 +54,15 @@
 
   <details>
     <summary>authorization</summary>
+    <p>the file below is located in <a href="/views/home.ejs"><code>home.ejs</code></a></p>
+    <code>&lt;a href="Your authorization link is here" class="login"&gt;Login&lt;span&gt;&lt;/span&gt;&lt;i class="bx bx-rocket"&gt;&lt;/i&gt;&lt;/a&gt;</code>
+<p>You can get the authorization link from the Discord developer portal website, it is located in the OAuth2 menu, on the URL Generator page
+do exactly the same as the example below
+<img src="/public/image/Example-2.jpg" alt="Example 2"/>
+</p>
   </details> <br>
   </ul>
+  <p>Once you feel like everything is finished or you don't need anything else, you can try it by pressing the link <a href="https://localhost:3000/"><code>https://localhost:3000/</code><a></p>
   <h2>Credits</h2>
 
 </div>
