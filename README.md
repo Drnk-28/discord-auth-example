@@ -79,7 +79,7 @@ do exactly the same as the example below
     <h3>Authorization </h3>
     <img width="50%" src="public/image/Ss-2.jpg">
     <h3>Result</h3>
-    <img width="50%" src="public/image/Ss.jpg">
+    <img width="50%" src="public/image/20231112_033737.jpg">
 
 
 </div>
