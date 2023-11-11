@@ -31,7 +31,7 @@
     <h5>git clone</h5>
     <p>clone this project with an example like this on your terminal <br>
     <code>git clone https://github.com/Drnk-28/discord-auth-example.git</code></p>
-    <p>after that, you can manage everything starting from <a href="#settings"><code>.env</code></a></p>
+    <p>after that, you can manage everything starting from <a href="#settings">this</a><br>after that run it with <code>node .</code> on your terminal</p>
   </details>
   
   <details>
