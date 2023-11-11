@@ -46,6 +46,7 @@
   <details>
     <summary>env-example</summary>
     <pre>clientId=<br>clientSecret=<br>redirectURL=</pre>
+    <p>You can get your clientId and clientSecret on the discord developer portal website, there you must have an application, and if there is no application yet, you need to create one first. if so, you just need to select the application and go to the <strong>OAuth2</strong> menu, and select the generator page, and do the same as in the screenshot below</p>
   </details>
 
   <details>
