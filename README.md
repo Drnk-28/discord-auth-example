@@ -28,5 +28,12 @@
   </details>
   <details>
     <summary>automatic installation</summary>
+    
   </details>
+  
+  <details>
+    <summary>manual installation</summary>
+  </details>
+
+  <h3>settings</h3>
 </div>
