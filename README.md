@@ -36,6 +36,8 @@
   
   <details>
     <summary>manual installation</summary>
+    <h5>download repository</h5>
+    <p>You can download this repository on the main page of this repository<br>After that, you can paste all the files in it into your file editor, and don't forget to fill in everything you need in the <a href="#settings">settings</a> section.<br>After that, you can run the file with <code>node .</code> in your terminal </p>
   </details>
 
   <h3 id="settings">settings</h3>  
