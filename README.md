@@ -28,12 +28,23 @@
   </details>
   <details>
     <summary>automatic installation</summary>
-    
+    <h5>git clone</h5>
+    <p>clone this project with an example like this on your terminal <br>
+    <code>git clone https://github.com/Drnk-28/discord-auth-example.git</code></p>
+    <p>after that, you can manage everything starting from <a href="#settings"><code>.env</code></a></p>
   </details>
   
   <details>
     <summary>manual installation</summary>
   </details>
 
-  <h3>settings</h3>
+  <h3 id="settings">settings</h3>  
+  <details>
+    <summary>env-example</summary>
+  </details>
+
+  <details>
+    <summary>authorization</summary>
+  </details>
+
 </div>
