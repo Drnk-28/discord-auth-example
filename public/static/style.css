@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #000008;
+  background: linear-gradient(to right, #000000, #121212, #000000);
+  font-size: 14px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+}
+
+header #particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+header .info-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  height: 100vh;
+}
+
+header .info-text h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header .info-text h3 {
+  font-size: 1.5rem;
+}
+
+header .info-text .scroll,
+.login {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  color: #ffffff;
+  transform: translate(0, -50%);
+  transition: all 0.5s;
+}
+
+header .info-text .scroll:hover,
+.login:hover {
+  opacity: 0.7;
+}
+
+header .info-text .scroll::before,
+.login::before {
+  position: absolute;
+  top: -13px;
+  left: -17px;
+  z-index: -1;
+  content: "";
+  width: 80px;
+  height: 40px;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  15%,
+  45% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.1);
+    opacity: 0;
+  }
+}
+
+#about,
+#features {
+  
+  background-color: #012010;
+  background: linear-gradient(to right, #000000, #121212, #000000);
+  padding: 40px;
+}
+
+#about .header,
+#features .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#about .header h1,
+#features .header h1 {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#about .header a,
+#features .header a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #ffffff;
+  border: 1px solid transparent;
+  padding: 10px 50px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#about .header a:hover,
+#features .header a:hover {
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+#about .card,
+#features .card {
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  display: flex;
+  gap: 30px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#about .card:hover,
+#features .card:hover {
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+#about .card img {
+  border: 5px solid #787878;
+  border-radius: 10%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#about .card .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#about .card .info h1,
+#features .card .info h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#about .card .info p,
+#features .card .info p {
+  color: #cccccc;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+#features .feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#features .feature-cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 350px;
+}
+
+#features .feature-cards .card .info i {
+  color: #ffffff;
+  font-size: 8rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+#features .feature-cards .card .info h1 {
+  text-align: center;
+}
+
+#features .feature-cards .card .info p {
+  font-size: 1.1rem;
+}
+
+.scroll-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2b2f4b;
+  color: #ffffff;
+  border: 1px solid transparent;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  padding: 16px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.scroll-top:hover {
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 720px) {
+  header .info-text h1 {
+    font-size: 4rem;
+  }
+
+  header .info-text h3 {
+    font-size: 1.1rem;
+  }
+
+  #about .card {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about .card img {
+    
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
