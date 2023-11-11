@@ -64,5 +64,22 @@ do exactly the same as the example below
   </ul>
   <p>Once you feel like everything is finished or you don't need anything else, you can try it by pressing the link <a href="https://localhost:3000/"><code>https://localhost:3000/</code><a></p>
   <h2>Credits</h2>
+  <ul>
+    <details>
+      <summary> UI/UX & Code </summary>
+      <ul>
+        <li><a href="https://github.com/AsmrProg-YT">AsmrProg-YT</a></li>
+        <li><a href="https://github.com/Drnk-28">Me Drnk</a></li>
+      </ul>
+    </details>
+  </ul>
+  <h2>Screenshot</h2>
+    <h3>Home</h3>
+    <img width=50%" src="public/image/Ss-1.jpg">
+    <h3>Authorization </h3>
+    <img width="50%" src="public/image/Ss-2.jpg">
+    <h3>Result</h3>
+    <img width="50%" src="public/image/Ss-3.jpg">
+
 
 </div>
