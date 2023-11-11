@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/style.css" />
+    <title>Discord-auth-example | Drnk.28</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="particles"></div>
+      <div class="info-text">
+        <h1>⚡<br/>hi you</h1>
+        <h3>
+          Thank you for trusting me,<br>scroll down to see your profile
+        </h3>
+      </div>
+    </header>
+    <section id="about">
+      <div class="header">
+        <h1>About Me</h1>
+        <!-- because it doesn't use any database, so I simplified it to something like this -->
+        <a href="/">Logout</a>
+      </div>
+      <div class="card">
+        <img src=<%= avatar %> alt=<%=name%> />
+        <div class="info">
+          <h1><%=name%></h1>
+          <p style="font-family: monospace;">
+            <strong>ID : </strong> <%=id%>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/components/particles.js"></script>
+</html>
